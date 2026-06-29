@@ -1,0 +1,133 @@
+/* *{
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.text{
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 2px solid black;
+    transform: translate(-50%, -50%);
+   background-color: rgb(193, 91, 8);
+    
+       background-image: url("i1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.text img{
+     height: 600px;
+    width: 500px;
+    object-fit: cover;
+}
+h1{
+    position: relative;
+    top: 5%;
+    left: 20%;
+    color:  rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 40px;
+
+}
+input{
+    position: relative;
+    height: 30px;
+    width: 200px;
+    top: 10%;left: 10%;
+}
+.sub{
+     position: relative;
+    height: 30px;
+    width: 100px;
+    top: 10%;left: 10%;
+}
+.col{
+     position: relative;
+     top: 20%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+}
+.but{
+     height: 50px;
+     width: 80px;
+     z-index: 10;
+}
+
+.res{
+    position: relative;
+    top: 40%;left: 5%;
+    color: aliceblue;
+    font-size: 50px;
+}
+.rand{
+    position: absolute;
+    top: 80%;left: 50%;
+    height: 50px;
+    width: 100px
+} */
+
+.login,
+.new,
+.meet,
+.msg {
+    display: none;
+}
+div{
+    height: 500px;
+    width: 400px;
+    /* border: 2px solid black;*/
+    position: absolute; 
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     
+    display: flex;
+    flex-direction: column;   
+    justify-content: center; 
+    align-items: center;     
+    /* background-color: rgb(131, 161, 216); */
+         border-radius: 30px;
+}
+.sub{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    height: 50px;
+    width: 150px; font-size: 20px;
+    background-color: antiquewhite;
+    border: 3px solid rgb(232, 38, 70);
+    border-radius: 30px;
+   
+}
+p{
+  
+    height:30px;
+    width: 200px;
+    background-color: rgb(182, 178, 178);
+    font-size: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+     border: 3px solid black;
+  
+}
+body{
+    height: 100vh;width: 100%;
+    background-image: url('dor.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
